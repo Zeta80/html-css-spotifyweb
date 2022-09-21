@@ -1,5 +1,25 @@
-/* MOBILE S */
+/* TABLET */
+@media screen and (max-width: 768px) {
+
+    /* MUSIC LAYER */
+    .box-image {
+        width: calc(100% / 4);
+    }
+}
+
+
+/* MOBILE M */
 @media screen and (max-width: 600px) {
+
+    /* MUSIC LAYER */
+    .box-image {
+        width: calc(100% / 2);
+    }
+
+}
+
+/* MOBILE S */
+@media screen and (max-width: 320px) {
 
     /* SIDEBAR */
     :root {

@@ -34,7 +34,7 @@ ul {
 
 :root {
     --header-height: 60px;
-    --nav-width: 200px;
+    --nav-width: 150px;
     --footer-heigth: 60px;
 }
 
@@ -47,6 +47,7 @@ header {
     width: calc(100% - var(--nav-width));
     top: 0;
     right: 0;
+    z-index: 999;
 }
 
 .container-header {
@@ -88,7 +89,7 @@ header {
     margin-top: var(--header-height);
     border: 1px solid red;
     justify-content: flex-end;
-    height: calc(100vh - var(--footer-heigth));
+    height: calc(100vh - var(--footer-heigth) + 50px);
 }
 
 .layer {
@@ -116,18 +117,19 @@ header {
     /* height: 300px; */
     flex-wrap: wrap;
     /* justify-content: space-between; */
-    gap: 5px;
-    margin: 0 auto;
-
-    transform: translateY(15%);
+    /* gap: 5px; */
+    margin: 2em auto;
     /* DEBUG */
     border: 1px solid black;
 }
 
+
 .box-image {
     width: calc(100% / 6);
-    width: 200px;
+    padding-left: 5px;
 }
+
+
 
 /* #endregion MAIN */
 /* #region FOOTER */
@@ -138,6 +140,7 @@ footer {
     bottom: 0;
     left: 0;
     width: 100%;
+    z-index: 998;
 }
 
 /* #endregion FOOTER */
