@@ -58,6 +58,7 @@ header {
 
 .cont-btn-upgrade a {
     text-decoration: none;
+    display: inline-block;
     color: inherit;
     background-color: wheat;
     border: 1px solid black;
