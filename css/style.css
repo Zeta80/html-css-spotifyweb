@@ -84,12 +84,14 @@ header {
 }
 
 /* #region MAIN */
+
 .container {
     background-color: #141922;
     color: white;
     padding-top: var(--header-height);
     justify-content: flex-end;
-    height: calc(100vh - var(--footer-heigth) + 50px);
+    height: calc(100vh - var(--footer-heigth));
+    overflow: auto;
 }
 
 .layer {
@@ -99,6 +101,7 @@ header {
 .nav-layer {
     margin: 0 auto;
     text-align: center;
+    overflow: auto;
 }
 
 .nav-layer ul {
@@ -134,9 +137,9 @@ header {
 footer {
     height: var(--footer-heigth);
     background-color: #282828;
-    position: fixed;
+    /* position: fixed;
     bottom: 0;
-    left: 0;
+    left: 0; */
     width: 100%;
     z-index: 998;
 }
@@ -174,6 +177,10 @@ footer {
 .progress-bar input {
     background-color: #fff;
     width: 60%;
+}
+
+.player-audio input {
+    width: 40%;
 }
 
 .img-track {
