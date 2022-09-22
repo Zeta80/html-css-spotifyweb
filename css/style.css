@@ -158,10 +158,22 @@ footer {
 }
 
 .player-actions {
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     height: 100%;
     width: 50%;
-    /* DEBUG */
-    background-color: aquamarine;
+}
+
+.progress-bar {
+    text-align: center;
+    width: 100%;
+}
+
+.progress-bar input {
+    background-color: #fff;
+    width: 60%;
 }
 
 .img-track {
