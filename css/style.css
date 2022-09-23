@@ -84,6 +84,34 @@ header {
     justify-self: flex-end;
 }
 
+.account-app .user-app,
+.account-app h4 {
+    display: inline-block;
+}
+
+.account-app .user-app {
+    width: 25px;
+    height: 25px;
+    border-radius: 30px;
+    background-color: #A2A2A2;
+    text-align: center;
+}
+
+.account-app .user-app i {
+    font-size: 1.3em;
+}
+
+.create-playlist {
+    align-items: center;
+}
+
+.btn-playlist {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #8b8b8b;
+}
+
 /* #region MAIN */
 
 .container {
