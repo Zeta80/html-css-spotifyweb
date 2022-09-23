@@ -171,6 +171,10 @@ footer {
     width: 50%;
 }
 
+.player-actions i {
+    margin-left: 10px;
+}
+
 .progress-bar {
     text-align: center;
     width: 100%;

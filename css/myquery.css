@@ -25,7 +25,34 @@
         --nav-width: 40px;
     }
 
+    .player-album,
+    .player-audio {
+        width: 80px;
+    }
+
     .player-album .track {
         display: none;
+    }
+
+    .player-album .icons-track {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .player-actions i {
+        margin-left: 0px;
+    }
+
+    .player-actions .progress-bar input {
+        width: 50%;
+    }
+
+    .player-audio {
+        flex-direction: column;
+    }
+
+    .player-audio input {
+        width: 90%;
     }
 }
