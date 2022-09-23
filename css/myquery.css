@@ -35,7 +35,6 @@
     }
 
     .player-album .icons-track {
-        display: flex;
         justify-content: center;
         flex-direction: column;
     }

@@ -34,11 +34,17 @@ ul {
     display: flex;
 }
 
+.marg-top {
+    margin-top: 1.8em;
+}
+
 :root {
     --header-height: 80px;
     --nav-width: 150px;
     --footer-heigth: 60px;
 }
+
+
 
 /* #region HEADER */
 header {
@@ -165,8 +171,6 @@ header {
     border-radius: 50%;
     object-fit: cover;
 }
-
-
 
 /* #endregion MAIN */
 /* #region FOOTER */
