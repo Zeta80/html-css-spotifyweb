@@ -44,8 +44,6 @@ ul {
     --footer-heigth: 60px;
 }
 
-
-
 /* #region HEADER */
 header {
     height: var(--header-height);
@@ -87,6 +85,10 @@ header {
     background-color: #000000;
 }
 
+.wrapp-nav .search li {
+    margin-bottom: 0.7em;
+}
+
 .account-app {
     justify-self: flex-end;
 }
@@ -110,13 +112,24 @@ header {
 
 .create-playlist {
     align-items: center;
+    margin-bottom: 1.5em;
+    margin-top: 0.7em;
 }
 
 .btn-playlist {
     display: inline-block;
     width: 40px;
     height: 40px;
+    line-height: 40px;
     background-color: #8b8b8b;
+    font-size: 3em;
+    color: #000000;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.playlist li {
+    margin-bottom: 0.9em;
 }
 
 /* #region MAIN */
@@ -150,7 +163,6 @@ header {
     padding-left: .9em;
     font-size: .9rem;
 }
-
 
 .container-user {
     width: 98%;
