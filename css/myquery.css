@@ -7,7 +7,6 @@
     }
 }
 
-
 /* MOBILE M */
 @media screen and (max-width: 600px) {
 
@@ -24,5 +23,9 @@
     /* SIDEBAR */
     :root {
         --nav-width: 40px;
+    }
+
+    .player-album .track {
+        display: none;
     }
 }
