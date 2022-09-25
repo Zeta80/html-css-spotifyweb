@@ -30,8 +30,28 @@ ul {
 
 /* COMMON */
 
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
 .flex {
     display: flex;
+}
+
+.font-hover-white:hover {
+    color: white;
+}
+
+.blg:hover {
+    border-left: 2px solid green;
+}
+
+.bbg:hover {
+    border-bottom: 2px solid green;
 }
 
 .marg-top {
@@ -61,6 +81,10 @@ header {
     height: var(--header-height);
 }
 
+.cont-btn-upgrade {
+    margin-right: 1.5em;
+}
+
 .cont-btn-upgrade a {
     position: relative;
     text-decoration: none;
@@ -87,10 +111,14 @@ header {
 
 .wrapp-nav .search li {
     margin-bottom: 0.7em;
+    padding: 0.3em 1em;
 }
 
 .account-app {
     justify-self: flex-end;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .account-app .user-app,
@@ -108,6 +136,18 @@ header {
 
 .account-app .user-app i {
     font-size: 1.3em;
+}
+
+.account-app hr {
+    width: 40%;
+}
+
+.user-app-cont {
+    margin: 0.7em;
+}
+
+.user-app-cont h4 {
+    margin-left: 10px;
 }
 
 .create-playlist {
@@ -130,7 +170,9 @@ header {
 
 .playlist li {
     margin-bottom: 0.9em;
+    padding: 0.3em 1em;
 }
+
 
 /* #region MAIN */
 
@@ -173,10 +215,28 @@ header {
     margin: 2em auto;
 }
 
+.title-row .subtitle {
+    color: #8b8b8b;
+}
 
 .box-image {
     width: calc(100% / 6);
     padding-left: 5px;
+}
+
+.hoover-img {
+    top: 40%;
+    right: 40%;
+    font-size: 2rem;
+    display: none;
+}
+
+.box-image:hover .wrapper-img {
+    opacity: 0.4;
+}
+
+.box-image:hover .hoover-img {
+    display: block;
 }
 
 .popular-artist .box-image .wrapper-img img {
