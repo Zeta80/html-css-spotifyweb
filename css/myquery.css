@@ -25,6 +25,21 @@
         --nav-width: 40px;
     }
 
+    .no-display {
+        display: none;
+    }
+
+    .logo-small {
+        display: block;
+
+    }
+
+    .search {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     .player-album,
     .player-audio {
         width: 80px;
